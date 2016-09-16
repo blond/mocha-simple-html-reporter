@@ -39,6 +39,13 @@ $ mocha testfile.js --reporter mocha-simple-html-reporter --reporter-options out
 
 By default, it will output to the console. To write directly to a file, use `--reporter-options output=filename.html`.
 
+Related
+-------
+
+* [mocha-html-reporter](https://github.com/HermannPencole/mocha-html-reporter) — reporter with original Mocha-style.
+* [good-mocha-html-reporter](https://github.com/Gauge/html_table_reporter) — reporter with custom style.
+* [mochawesome](https://github.com/adamgruber/mochawesome) — builds user-friendly report with percentage, charts and navigation menu.
+
 License
 -------
 
