@@ -1,0 +1,36 @@
+{
+  "name": "mocha-simple-html-reporter",
+  "version": "0.0.0",
+  "description": "HTML reporter for Mocha",
+  "license": "MIT",
+  "repository": "blond/mocha-simple-html-reporter",
+  "author": "Andrew Abramov <mail@blond.im> (github.com/blond)",
+  "keywords": [
+    "mocha",
+    "reporter",
+    "report",
+    "html"
+  ],
+  "main": "index.js",
+  "files": [
+    "lib/**",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 4.0"
+  },
+  "dependencies": {
+    "pretty-ms": "2.1.0"
+  },
+  "devDependencies": {
+    "deasync": "^0.1.7",
+    "eslint": "^3.0.0",
+    "eslint-config-pedant": "^0.8.0",
+    "mocha": "^3.0.2",
+    "should": "^11.1.0"
+  },
+  "scripts": {
+    "test": "eslint .",
+    "example": "mocha examples/test.js --reporter=$PWD --opts examples/mocha.opts"
+  }
+}
