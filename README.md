@@ -1,6 +1,8 @@
 mocha-simple-html-reporter
 ==========================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/blond/mocha-simple-html-reporter.svg)](https://greenkeeper.io/)
+
 [![NPM Status][npm-img]][npm]
 [![Travis Status][test-img]][travis]
 [![Dependency Status][david-img]][david]
