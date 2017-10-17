@@ -1,4 +1,5 @@
-var sleep = require('deasync').sleep;
+const sleep = require('deasync').sleep;
+const expect = require('unexpected');
 
 describe('Array', () => {
     describe('#indexOf()', () => {
@@ -46,7 +47,11 @@ describe('skip', () => {
 });
 
 describe('fail', () => {
-    it('should fail', () => {
+    it('should fail AssertionError', () => {
         (1+1).should.equal(10);
+    });
+
+    it('should fail with HtmlMessage', () => {
+        expect({ a: 'b' }, 'to equal', { a: 'c' });
     });
 });
