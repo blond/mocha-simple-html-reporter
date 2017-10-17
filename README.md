@@ -19,7 +19,7 @@ This is a custom reporter for use with the Javascript testing framework, [mocha]
 Sample Report
 -------------
 
-![Sample Report](https://cloud.githubusercontent.com/assets/2225579/18583359/d5f0c0b6-7c12-11e6-8c73-d606497a4878.png)
+![Sample Report](./report.gif)
 
 Install
 -------
