@@ -10,6 +10,10 @@
     display: block;
 }
 
+#mocha .test .html-error pre.error {
+    box-shadow: none;
+}
+
 #mocha .test:hover h2:after {
     color: #888888;
     content: "(view source)";

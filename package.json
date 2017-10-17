@@ -27,10 +27,11 @@
     "eslint": "^4.9.0",
     "eslint-config-pedant": "^0.10.0",
     "mocha": "^4.0.0",
-    "should": "^13.1.2"
+    "should": "^13.1.2",
+    "unexpected": "^10.36.0"
   },
   "scripts": {
     "test": "eslint .",
-    "example": "mocha examples/test.js --reporter=$PWD --opts examples/mocha.opts"
+    "example": "UNEXPECTED_FULL_TRACE=true mocha examples/test.js --reporter=$PWD --opts examples/mocha.opts --no-colors"
   }
 }
