@@ -1,0 +1,17 @@
+parserOptions:
+  ecmaVersion: 6
+
+extends: pedant
+
+overrides:
+  - files: [lib/*.js, index.js]
+    env: 
+      node: true
+      es6: true
+  - files: lib/assets/*.js
+    env: 
+      browser: true
+  - files: examples/*.js
+    env:
+      node: true
+      mocha: true
