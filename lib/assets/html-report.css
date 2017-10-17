@@ -2,6 +2,14 @@
     display: none;
 }
 
+#mocha .test.fail pre {
+    display: none;
+}
+
+#mocha .test pre.error {
+    display: block;
+}
+
 #mocha .test:hover h2:after {
     color: #888888;
     content: "(view source)";
