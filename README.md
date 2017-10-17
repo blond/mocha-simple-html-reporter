@@ -59,6 +59,7 @@ It means that original HTML reporter not building HTML report. It run tests in b
 
 The `mocha-html-reporter` package has the following problems:
 
+* It not able report about failures only. If your project has many tests, it is difficult to find the error among thousands of passed tests.
 * It able to return HTML-report only in console. There is no way to write to a file if your tests writing something to `stdout`.
 * It requires concatenating result with `head.html` and `tail.html` to build report with styles and scripts.
 * You can't move file with HTML report: styles link to CSS-file in `node_modules`.
