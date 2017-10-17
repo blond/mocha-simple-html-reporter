@@ -9,10 +9,10 @@ mocha-simple-html-reporter
 [npm-img]:      https://img.shields.io/npm/v/mocha-simple-html-reporter.svg
 
 [travis]:       https://travis-ci.org/blond/mocha-simple-html-reporter
-[test-img]:     https://img.shields.io/travis/blond/mocha-simple-html-reporter.svg?label=tests
+[test-img]:     https://img.shields.io/travis/blond/mocha-simple-html-reporter/master.svg?label=tests
 
 [david]:        https://david-dm.org/blond/mocha-simple-html-reporter
-[david-img]:    http://img.shields.io/david/blond/mocha-simple-html-reporter.svg?style=flat
+[david-img]:    https://img.shields.io/david/blond/mocha-simple-html-reporter/master.svg?style=flat
 
 This is a custom reporter for use with the Javascript testing framework, [mocha](http://mochajs.org/). It generates a HTML/CSS report that helps visualize your test suites.
 
