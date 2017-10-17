@@ -23,6 +23,7 @@ module.exports = function (runner, options) {
         const body = templates.body({
             passes: stats.passes,
             failures: stats.failures,
+            pending: stats.pending,
             duration: stats.end - stats.start,
             report: result
         });
@@ -65,6 +66,14 @@ module.exports = function (runner, options) {
         result += `<li class="test pass ${test.speed}">`;
         result += `<h2>${title}<span class="duration">${test.duration}ms</span></h2>`;
         result += `<pre><code>${code}</code></pre>`;
+        result += '</li>';
+    });
+
+    runner.on('pending', test => {
+        const title = utils.escape(test.title);
+
+        result += `<li class="test pass pending">`;
+        result += `<h2>${title}</h2>`;
         result += '</li>';
     });
 
