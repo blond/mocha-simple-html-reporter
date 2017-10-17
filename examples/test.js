@@ -39,6 +39,12 @@ describe('speed', () => {
     });
 });
 
+describe('skip', () => {
+    it.skip('should pending', () => {
+        (1+1).should.equal(10);
+    });
+});
+
 describe('fail', () => {
     it('should fail', () => {
         (1+1).should.equal(10);
