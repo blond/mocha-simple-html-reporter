@@ -1,9 +1,9 @@
 {
-  "name": "mocha-simple-html-reporter",
-  "version": "1.2.0",
+  "name": "mocha-simple-html-reporter-linked",
+  "version": "1.3.0",
   "description": "HTML reporter for Mocha",
   "license": "MIT",
-  "repository": "blond/mocha-simple-html-reporter",
+  "repository": "windycom/mocha-simple-html-reporter",
   "author": "Andrew Abramov <mail@blond.im> (github.com/blond)",
   "keywords": [
     "mocha",

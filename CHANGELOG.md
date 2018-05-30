@@ -1,5 +1,12 @@
 Changelog
 =========
+v1.3.0 (2018-05-29)
+-------------------
+
+### Features
+
+* Whenever URL is detecter as description of `it(..)` function, it is displayed as clickable, so API's can be tested
+* Report contains time of the test
 
 v1.1.0 (2017-10-18)
 -------------------

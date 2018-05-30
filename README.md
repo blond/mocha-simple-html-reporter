@@ -1,3 +1,8 @@
+# About this fork
+This is Windy's fork, that introduces these changes
+    - Whenever URL is detecter as description of `it(..)` function, it is displayed as clickable, so API's can be tested
+    - It displays time of the test
+
 mocha-simple-html-reporter
 ==========================
 
