@@ -1,6 +1,6 @@
 {
   "name": "mocha-simple-html-reporter-linked",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "HTML reporter for Mocha",
   "license": "MIT",
   "repository": "windycom/mocha-simple-html-reporter",
