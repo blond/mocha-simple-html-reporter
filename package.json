@@ -32,6 +32,6 @@
   },
   "scripts": {
     "test": "eslint .",
-    "example": "UNEXPECTED_FULL_TRACE=true mocha examples/test.js --reporter=$PWD --config examples/.mocharc.js"
+    "example": "UNEXPECTED_FULL_TRACE=true mocha --reporter=$PWD --config examples/.mocharc.js"
   }
 }
