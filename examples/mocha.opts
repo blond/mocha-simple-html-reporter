@@ -1,3 +1,0 @@
---ui bdd
---require should
---reporter-options output=examples/report.html
